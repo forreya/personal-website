@@ -4,7 +4,7 @@
 - [ ] Navbar (w/ links to GitHub, LinkedIn, etc)
 - [ ] HomePage (Introduction, CV, etc)
 - [ ] Footer
-- [ ] About Page
+- [ ] About Me Page
 - [ ] Skills Section (Programming languages, libraries, etc)
 - [ ] Projects Page (Japanese RPG game, file-sharing site, etc)
 - [ ] Articles Page (Tentative)
