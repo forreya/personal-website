@@ -2,6 +2,7 @@ import Layout from '@/components/Layout'
 import Head from 'next/head'
 import Image from 'next/image'
 import profilePic from '../../public/images/profile/profile-pic.png'
+import AnimatedText from '@/components/Animatedtext'
 
 export default function Home() {
   return (
@@ -15,6 +16,14 @@ export default function Home() {
           <div className='flex items-center justify-between w-full'>
             <div className='w-1/2'>
               <Image src={profilePic} alt="Ryan Lai" className='w-full h-auto'/>
+            </div>
+            <div className='w-1/2 flex flex-col self-center'>
+              <AnimatedText text="I'm Ryan- Junior Developer, Bedroom Artist and Basketball Fiend." className='!text-6xl !text-left'/>
+              <p>
+                I'm Ryan- a recent UCL graduate with a passion for the tech industry. 
+                Having recently graduated from Makers Academy's software development bootcamp, 
+                I had the opportunity to refine my industry skills in test-driven development and team collaboration.
+              </p>
             </div>
           </div>
         </Layout>
