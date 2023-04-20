@@ -8,12 +8,11 @@ const Logo = () => {
     <div className="flex items-center justify-center mt-2">
       <MotionLink 
         href="/"
-        className="w-16 h-16 bg-dark text-light flex items-center justify-center rounded-full text-2xl font-bold"
         whileHover={{
           scale:1.2,
         }}
       >
-        RL
+          <img src={'/ying-yang-pixel.png'} alt="image" className="w-16 h-16" />
       </MotionLink>
     </div>
   )
