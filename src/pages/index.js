@@ -3,8 +3,11 @@ import Head from 'next/head'
 import Image from 'next/image'
 import profilePic from '../../public/images/profile/profile-pic.png'
 import AnimatedText from '@/components/Animatedtext'
+import Link from 'next/link'
+import { CvIcon } from '@/components/Icons'
 
 export default function Home() {
+
   return (
     <>
       <Head>
@@ -19,11 +22,23 @@ export default function Home() {
             </div>
             <div className='w-1/2 flex flex-col self-center'>
               <AnimatedText text="I'm Ryan- Junior Developer, Bedroom Artist and Basketball Fiend." className='!text-6xl !text-left'/>
-              <p>
-                I'm Ryan- a recent UCL graduate with a passion for the tech industry. 
+              <p className='my-4 text-base font-medium'>
+                I am a recent UCL graduate with a passion for the tech industry. 
                 Having recently graduated from Makers Academy's software development bootcamp, 
                 I had the opportunity to refine my industry skills in test-driven development and team collaboration.
               </p>
+              <div className='flex items-center self-start mt-2'>
+                <Link href="/dummy-cv.pdf" target={"_blank"}
+                className='flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold 
+                hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark
+                justify-center group'
+                download={true}
+                >CV <CvIcon className="w-6 ml-2 invert group-hover:invert-0"/>
+                </Link>
+                <Link href="/mailto:abcd@gmail.com" target={"_blank"}
+                className='ml-4 text-lg font-medium capitalize text-dark underline'
+                >Email Me</Link>
+              </div>
             </div>
           </div>
         </Layout>
