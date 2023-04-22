@@ -1,4 +1,5 @@
 import AnimatedText from '@/components/AnimatedText';
+import Education from '@/components/Education';
 import Experience from '@/components/Experience';
 import Layout from '@/components/Layout';
 import Skills from '@/components/Skills';
@@ -86,6 +87,7 @@ const AboutMe = () => {
             </div>
           </div>
           <Skills />
+          <Education />
           <Experience />
         </Layout>
       </main>
