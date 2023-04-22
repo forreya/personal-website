@@ -1,6 +1,7 @@
 import AnimatedText from '@/components/AnimatedText';
 import Layout from '@/components/Layout';
-import { spring, useInView, useMotionValue, useSpring } from 'framer-motion';
+import Skills from '@/components/Skills';
+import { useInView, useMotionValue, useSpring } from 'framer-motion';
 import Head from 'next/head'
 import { useEffect, useRef } from 'react'
 
@@ -25,9 +26,7 @@ const AnimatedNumber = ({value}) => {
   },[springValue, value])
 
   return (
-    <span ref={ref}>
-
-    </span>
+    <span ref={ref}></span>
   )
 
 }
@@ -85,6 +84,7 @@ const AboutMe = () => {
               </div>
             </div>
           </div>
+          <Skills />
         </Layout>
       </main>
     </>
