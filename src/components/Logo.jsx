@@ -12,7 +12,7 @@ const Logo = () => {
           scale:1.2,
         }}
       >
-          <img src={'/ying-yang-pixel.png'} alt="image" className="w-16 h-16" />
+          <img src={'/ying-yang.png'} alt="image" className="w-16 h-16" />
       </MotionLink>
     </div>
   )
