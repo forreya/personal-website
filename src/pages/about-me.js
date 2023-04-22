@@ -1,4 +1,5 @@
 import AnimatedText from '@/components/AnimatedText';
+import Experience from '@/components/Experience';
 import Layout from '@/components/Layout';
 import Skills from '@/components/Skills';
 import { useInView, useMotionValue, useSpring } from 'framer-motion';
@@ -85,6 +86,7 @@ const AboutMe = () => {
             </div>
           </div>
           <Skills />
+          <Experience />
         </Layout>
       </main>
     </>
