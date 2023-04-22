@@ -2,7 +2,7 @@ import { motion, useScroll } from "framer-motion";
 import { useRef } from "react";
 import LiIcon from "./LiIcon";
 
-const Details = ({type, time, place, info}) => {
+const Details = ({type, time, instituteLink, place, info}) => {
   const ref = useRef(null)
 
   return (
@@ -13,7 +13,9 @@ const Details = ({type, time, place, info}) => {
         whileInView={{y:0}}
         transition={{duration:0.5, type:"spring"}}
       >
-        <h3 className="capitalize font-bold text-2xl">{type}&nbsp;</h3>
+        <h3 className="capitalize font-bold text-2xl">{type}&nbsp;
+          <a href={instituteLink} target="_blank" className="text-primary">@{place}</a>
+        </h3>
         <span className="capitalize font-medium text-dark/75">
           {time} | {place}
         </span>
@@ -46,20 +48,23 @@ const Education = () => {
         
         <ul className="w-full flex flex-col items-start justify-between ml-4">
           <Details 
-            type="Bachelor of Science in Physics, University College London"
+            type="Bachelor of Science in Physics"
             time="Sept 2019 - Sept 2022"
+            instituteLink={"https://www.ucl.ac.uk/physics-astronomy/"}
             place="University College London"
             info="Graduated with Second Class Honours (2:1). Despite the difficult nature of the degree, engaging in these various group projects has developed me into an excellent team player with strong interpersonal skills, although I can work just as well independently."
           />
           <Details 
-            type="Bachelor of Science in Physics, University College London"
+            type="Bachelor of Science in Physics"
             time="Sept 2019 - Sept 2022"
+            instituteLink={"https://www.ucl.ac.uk/physics-astronomy/"}
             place="University College London"
             info="Graduated with Second Class Honours (2:1). Despite the difficult nature of the degree, engaging in these various group projects has developed me into an excellent team player with strong interpersonal skills, although I can work just as well independently."
           />
           <Details 
-            type="Bachelor of Science in Physics, University College London"
+            type="Bachelor of Science in Physics"
             time="Sept 2019 - Sept 2022"
+            instituteLink={"https://www.ucl.ac.uk/physics-astronomy/"}
             place="University College London"
             info="Graduated with Second Class Honours (2:1). Despite the difficult nature of the degree, engaging in these various group projects has developed me into an excellent team player with strong interpersonal skills, although I can work just as well independently."
           />
