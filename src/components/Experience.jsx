@@ -16,9 +16,11 @@ const Details = ({position, company, companyLink, time, address, work}) => {
         <h3 className="capitalize font-bold text-2xl">{position}&nbsp;
           <a href={companyLink} target="_blank" className="text-primary capitalize">@{company}</a>
         </h3>
-        <span className="capitalize font-medium text-dark/75">
-          {time} | {address}
-        </span>
+        <div className="mb-1">
+          <span className="capitalize font-medium text-dark/75">
+            {time} | {address}
+          </span>
+        </div>
         <p className="font-medium w-full">
           {work}
         </p>
@@ -48,7 +50,7 @@ const Experience = () => {
         
         <ul className="w-full flex flex-col items-start justify-between ml-4">
           <Details 
-            position="Assistant Web Developer"
+            position="Assistant Website Developer"
             companyLink="https://wahine.wcapital.asia/"
             company="Wahine Capital"
             time="Jun 2022 - Aug 2022"
@@ -56,20 +58,20 @@ const Experience = () => {
             work="Assisted in the client-side development of the company's prototype web pages. Created preliminary layouts for the design and branding of the company. Involved in mapping out the structure and flow-chart of the company's website."
           />
           <Details 
-            position="Assistant Web Developer"
-            companyLink="https://wahine.wcapital.asia/"
-            company="Wahine Capital"
-            time="Jun 2022 - Aug 2022"
-            address="Kuala Lumpur, Malaysia"
-            work="Assisted in the client-side development of the company's prototype web pages. Created preliminary layouts for the design and branding of the company. Involved in mapping out the structure and flow-chart of the company's website."
+            position="A Levels Tutor"
+            companyLink="https://www.thelocalteachers.co.uk/"
+            company="The Local Teachers"
+            time="Nov 2020 - Mar 2021"
+            address="London, United Kingdom"
+            work="Part-time tutor for students studying the sciences or mathematics for GCSEs and A Levels. Worked as a teacher in a tutoring centre. Travelled to the student’s homes two to three times a week to tutor."
           />
           <Details 
-            position="Assistant Web Developer"
-            companyLink="https://wahine.wcapital.asia/"
-            company="Wahine Capital"
-            time="Jun 2022 - Aug 2022"
+            position="Financial Databasing Intern"
+            companyLink="https://wvb.com/"
+            company="World’Vest Base"
+            time="Jun 2017 - Aug 2017"
             address="Kuala Lumpur, Malaysia"
-            work="Assisted in the client-side development of the company's prototype web pages. Created preliminary layouts for the design and branding of the company. Involved in mapping out the structure and flow-chart of the company's website."
+            work="Assigned the task of updating excel spreadsheets by referencing raw data from the annual/ quarterly reports of a list of companies. Responsibilities included transferring data onto the company’s database & updating my department with new business reports."
           />
         </ul>
       </div>

@@ -16,9 +16,11 @@ const Details = ({type, time, instituteLink, place, info}) => {
         <h3 className="capitalize font-bold text-2xl">{type}&nbsp;
           <a href={instituteLink} target="_blank" className="text-primary">@{place}</a>
         </h3>
-        <span className="capitalize font-medium text-dark/75">
-          {time} | {place}
-        </span>
+        <div className="mb-1">
+          <span className="capitalize font-medium text-dark/75">
+            {time} | {place}
+          </span>
+        </div>
         <p className="font-medium w-full">
           {info}
         </p>
@@ -55,18 +57,18 @@ const Education = () => {
             info="Graduated with Second Class Honours (2:1). Despite the difficult nature of the degree, engaging in these various group projects has developed me into an excellent team player with strong interpersonal skills, although I can work just as well independently."
           />
           <Details 
-            type="Bachelor of Science in Physics"
-            time="Sept 2019 - Sept 2022"
-            instituteLink={"https://www.ucl.ac.uk/physics-astronomy/"}
-            place="University College London"
-            info="Graduated with Second Class Honours (2:1). Despite the difficult nature of the degree, engaging in these various group projects has developed me into an excellent team player with strong interpersonal skills, although I can work just as well independently."
+            type="Advanced Levels"
+            time="Sept 2017 - Jul 2019"
+            instituteLink={"https://www.alice-smith.edu.my/"}
+            place="Alice Smith International School"
+            info="2 A*s in Mathematics, Physics & 2 As in Further Mathematics, Chemistry. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
           />
           <Details 
-            type="Bachelor of Science in Physics"
-            time="Sept 2019 - Sept 2022"
-            instituteLink={"https://www.ucl.ac.uk/physics-astronomy/"}
-            place="University College London"
-            info="Graduated with Second Class Honours (2:1). Despite the difficult nature of the degree, engaging in these various group projects has developed me into an excellent team player with strong interpersonal skills, although I can work just as well independently."
+            type="GCSEs"
+            time="Sept 2015 - Jul 2017"
+            instituteLink={"https://www.alice-smith.edu.my/"}
+            place="Alice Smith International School"
+            info="8 A*s & 3 As. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
           />
         </ul>
       </div>
