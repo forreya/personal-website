@@ -38,7 +38,7 @@ const AboutMe = () => {
     <>
       <Head>
         <title>Ryan Lai | About Me Page</title>
-        <meta name="description" content="This page providse an overview of my background, skills, and interests related to programming." />
+        <meta name="description" content="This page provides an overview of my background, skills, and interests related to programming." />
       </Head>
       <main>
         <Layout className='pt-16 flex w-full flex-col items-center justify-center'>

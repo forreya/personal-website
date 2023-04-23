@@ -33,14 +33,14 @@ const NavBar = () => {
       </nav >
 
       <nav className="flex items-center justify-center flex-wrap">
-        <motion.a href="/" target={"_blank"}
+        <motion.a href="https://github.com/forreya" target={"_blank"}
         whileHover={{y:-2}}
         whileTap={{scale:0.9}}
         className="w-8 mx-3"
         >
           <GitHubIcon />
         </motion.a>
-        <motion.a href="/" target={"_blank"}
+        <motion.a href="https://www.linkedin.com/in/ryan-lai-a52211214/" target={"_blank"}
         whileHover={{y:-2}}
         whileTap={{scale:0.9}}
         className="w-8 ml-3"
