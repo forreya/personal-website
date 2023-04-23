@@ -8,9 +8,12 @@ import japaneseRPG from "../../public/images/projects/japanese-RPG.png"
 
 const FeaturedProject = ({type, title, summary, img, link, github}) => {
   return(
-    <article className="w-full flex items-center justify-between
-    rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12
+    <article className="w-full flex items-center justify-between rounded-br-2xl
+    rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12 relative
     ">
+      <div className='absolute top-0 -z-10 -right-4 w-[100.7%] h-[102%] rounded-[2.5rem] bg-dark
+      rounded-br-3xl
+      ' />
       <Link href={link} target="_blank"
       className="w-1/2 cursor-pointer overflow-hidden rounded-lg"
       >
@@ -39,6 +42,9 @@ const Project = ({type, title, img, link, github}) => {
     <article className="w-full flex flex-col items-center justify-center rounded-2xl
     border border-solid border-dark bg-light p-6 relative
     ">
+      <div className='absolute top-0 -z-10 -right-4 w-[101.7%] h-[102%] rounded-[2rem] bg-dark
+      rounded-br-3xl
+      ' />
       <Link href={link} target="_blank"
       className="w-full cursor-pointer overflow-hidden rounded-lg"
       >
@@ -73,8 +79,7 @@ const projects = () => {
           <AnimatedText text="Projects" 
           className="mb-16"
           />
-
-          <div className="grid grid-cols-12 gap-24">
+          <div className="grid grid-cols-12 gap-24 gap-y-32">
             <div className="col-span-12">
               <FeaturedProject 
                 title="Japanese Learning RPG"
@@ -82,7 +87,7 @@ const projects = () => {
                 link="/"
                 img={japaneseRPG}
                 github="/"
-                type="Featured Project"
+                type="Latest Project"
               />
             </div>
             <div className="col-span-6">
@@ -95,16 +100,49 @@ const projects = () => {
                 />
             </div>
             <div className="col-span-6">
-              Project-2
-            </div>
-            <div className="col-span-12">
-              Featured Project
+              <Project 
+                title="Japanese Learning RPG"
+                link="/"
+                img={japaneseRPG}
+                github="/"
+                type="Featured Project"
+              />
             </div>
             <div className="col-span-6">
-              Project-3
+              <Project 
+                title="Japanese Learning RPG"
+                link="/"
+                img={japaneseRPG}
+                github="/"
+                type="Featured Project"
+              />
             </div>
             <div className="col-span-6">
-              Project-4
+              <Project 
+                title="Japanese Learning RPG"
+                link="/"
+                img={japaneseRPG}
+                github="/"
+                type="Featured Project"
+              />
+            </div>
+            <div className="col-span-6">
+              <Project 
+                title="Japanese Learning RPG"
+                link="/"
+                img={japaneseRPG}
+                github="/"
+                type="Featured Project"
+              />
+            </div>
+            <div className="col-span-6">
+              <Project 
+                title="Japanese Learning RPG"
+                link="/"
+                img={japaneseRPG}
+                github="/"
+                type="Featured Project"
+              />
             </div>
           </div>
         </Layout>
