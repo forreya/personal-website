@@ -51,15 +51,15 @@ const NavBar = () => {
 
   return (
     <header
-      className="w-full px-32 py-8 font-medium flex items-center justify-between text-dark relative"
+      className="w-full px-32 py-8 font-medium flex items-center justify-between text-dark relative z-10 lg:px-16 md:px-12 sm:px-8"
     >
-      <button className="flex-col justify-center items-center hidden lg:flex" onClick={handleClick}>
+      <button className="flex-col justify-center items-center hidden xl:flex" onClick={handleClick}>
         <span className={`bg-dark block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${isOpen ? 'rotate-45 translate-y-1' : '-translate-y-0.5'}`}></span>
         <span className={`bg-dark block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm my-0.5 ${isOpen ? 'opacity-0' : 'marker:opacity-100'}`}></span>
         <span className={`bg-dark block transition-all duration-300 ease-out h-0.5 w-6 rounded-sm ${isOpen ? '-rotate-45 -translate-y-1' : 'translate-y-0.5'}`}></span>
       </button>
 
-      <div className="w-full flex justify-between items-center lg:hidden">
+      <div className="w-full flex justify-between items-center xl:hidden">
         <nav>
           <CustomLink href="/" title="Home" className="mr-4"/>
           <CustomLink href="/about-me" title="About Me" className="mx-4"/>
