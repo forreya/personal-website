@@ -56,7 +56,12 @@ const AboutMe = () => {
 
             <div className='col-span-3 relative z-0 h-max rounded-2xl border-2 border-solid border-dark bg-light'>
               <div className='absolute top-0 -z-10 -right-4 w-[102%] h-[103%] rounded-[2rem] bg-dark' />
-              <img src={"https://img.freepik.com/premium-vector/man-avatar-profile-round-icon_24640-14044.jpg?w=360"} alt="image" className="picture w-full h-auto rounded-2xl" />
+              <img src={"https://img.freepik.com/premium-vector/man-avatar-profile-round-icon_24640-14044.jpg?w=360"} alt="image" className="picture w-full h-auto rounded-2xl"
+              priority 
+              sizes="(max-width: 768px) 100vw,
+              (max-width: 1200px) 50vw,
+              33vw"
+              />
             </div>
 
             <div className='col-span-2 flex flex-col items-end justify-between'>
