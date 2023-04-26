@@ -27,7 +27,7 @@ const Skills = () => {
       lg:!h-[80vh] md:!h-[60vh] sm:!h-[55vh] xs:!h-[50vh] 
       lg:!bg-circularLightLg md:!bg-circularLightMd sm:!bg-circularLightSm
       '>
-        <Skill name="Coding" x="0vw" y="0vw" className='p-6 xs:!bg-dark xs:!text-light xs:!text-normal xs:!p-2'/>
+        <Skill name="Coding" x="0vw" y="0vw" className='p-6 xs:!bg-dark xs:!text-light xs:!text-normal xs:!p-2 lg:!py-5 lg:!px-4 md:!text-sm md:!py-1.5 md:!px-3 xs:bg-transparent xs:!text-bold'/>
         <Skill name="HTML" x="-20vw" y="2vw" />
         <Skill name="CSS" x="-5vw" y="-10vw" />
         <Skill name="JavaScript" x="20vw" y="6vw" />
