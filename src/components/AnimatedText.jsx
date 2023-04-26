@@ -34,7 +34,7 @@ const AnimatedText = ({text, className=""}) => {
       <motion.h1 className={`inline-block w-full text-dark font-bold capitalize text-8xl ${className}`}
       variants={quote}
       initial="initial"
-      animate="animate"
+      animate="animate" 
       >
         {
           text.split(" ").map((word,index) => {

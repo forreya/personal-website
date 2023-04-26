@@ -100,7 +100,7 @@ const NavBar = () => {
           <CustomMobileLink href="/articles" title="Articles"className="" toggle={handleClick}/>
         </nav >
 
-        <nav className="flex items-center justify-center flex-wrap mt-2">
+        <nav className="flex items-center justify-center flex-wrap mt-3">
           <motion.a href="https://github.com/forreya" target={"_blank"}
           whileHover={{y:-2}}
           whileTap={{scale:0.9}}
