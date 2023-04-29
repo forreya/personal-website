@@ -44,9 +44,12 @@ export default function Home() {
                 download={true}
                 >CV <CvIcon className="w-6 ml-2 invert group-hover:invert-0"/>
                 </Link>
-                <Link href="/mailto:abcd@gmail.com" target={"_blank"}
+                <Link href="mailto:ryanlai12@gmail.com" 
+                target={"_blank"}
                 className='ml-4 text-lg font-medium capitalize text-dark underline underline-offset-2 md:text-base'
-                >Email Me</Link>
+                >
+                  Email Me
+                </Link>
               </div>
             </div>
           </div>
