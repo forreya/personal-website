@@ -99,65 +99,47 @@ const projects = () => {
             <div className="col-span-12">
               <LatestProject 
                 title="Japanese Learning RPG"
-                summary="A Japanese learning website mixed with RPG game elements. Users can sign up, create a character for the game, and gain coins and experience by playing Japanese quizzes. Users can also buy new outfits with coins and change them in their wardrobes."
-                link="/"
+                summary="A Japanese language learning website which incorporates RPG game elements. Players can sign up, create their own character, and earn coins and experience by playing quizzes and picking up new words. With enough coins, players can also buy new outfits and recustomize themselves using the wardrobe."
+                link="https://github.com/forreya/japanese-learning-RPG"
                 img={japaneseRPG}
-                github="/"
+                github="https://github.com/forreya/japanese-learning-RPG"
                 type="Latest Project"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project 
-                  title="Japanese Learning RPG"
-                  link="/"
-                  img={japaneseRPG}
-                  github="/"
-                  type="Featured Project"
-                />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project 
-                title="Japanese Learning RPG"
-                link="/"
+                title="Music Licensing Website"
+                link="https://github.com/forreya/music-licensing-website"
                 img={japaneseRPG}
-                github="/"
-                type="Featured Project"
+                github="https://github.com/forreya/music-licensing-website"
+                type=""
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project 
-                title="Japanese Learning RPG"
-                link="/"
+                title="File Sharing Site"
+                link="https://github.com/forreya/file-sharing-site"
                 img={japaneseRPG}
-                github="/"
-                type="Featured Project"
+                github="https://github.com/forreya/file-sharing-site"
+                type=""
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project 
-                title="Japanese Learning RPG"
-                link="/"
+                title="Photo-Sharing App"
+                link="https://github.com/forreya/photo-sharing-app"
                 img={japaneseRPG}
-                github="/"
-                type="Featured Project"
+                github="https://github.com/forreya/photo-sharing-app"
+                type=""
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project 
-                title="Japanese Learning RPG"
-                link="/"
+                title="Bowling Scorecard Tracker"
+                link="https://github.com/forreya/bowling-scorecard"
                 img={japaneseRPG}
-                github="/"
-                type="Featured Project"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project 
-                title="Japanese Learning RPG"
-                link="/"
-                img={japaneseRPG}
-                github="/"
-                type="Featured Project"
+                github="https://github.com/forreya/bowling-scorecard"
+                type=""
               />
             </div>
           </div>
