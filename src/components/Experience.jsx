@@ -39,7 +39,7 @@ const Experience = () => {
   )
 
   return (
-    <div className="my-64">
+    <div className="mt-56 mb-48">
       <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16">
         Experience
       </h2>
@@ -55,7 +55,7 @@ const Experience = () => {
             company="Wahine Capital"
             time="Jun 2022 - Aug 2022"
             address="Kuala Lumpur, Malaysia"
-            work="Assisted in the client-side development of the company's prototype web pages. Created preliminary layouts for the design and branding of the company. Involved in mapping out the structure and flow-chart of the company's website."
+            work="Assisted in the client-side development of the company's prototype web pages. Created preliminary layouts for the design, branding & aesthetics of the company and was involved in mapping out the structure and flow-chart of the company's website."
           />
           <Details 
             position="A Levels Tutor"
@@ -63,7 +63,7 @@ const Experience = () => {
             company="The Local Teachers"
             time="Nov 2020 - Mar 2021"
             address="London, United Kingdom"
-            work="Part-time tutor for students studying the sciences or mathematics for GCSEs and A Levels. Worked as a teacher in a tutoring centre. Travelled to the student’s homes two to three times a week to tutor."
+            work="Part-time tutor for students studying the sciences or mathematics for GCSEs and A Levels. Worked as a teacher in a tutoring centre / travelled to the student’s homes 2-3 times a week."
           />
           <Details 
             position="Financial Databasing Intern"
@@ -71,7 +71,7 @@ const Experience = () => {
             company="World’Vest Base"
             time="Jun 2017 - Aug 2017"
             address="Kuala Lumpur, Malaysia"
-            work="Assigned the task of updating excel spreadsheets by referencing raw data from the annual/ quarterly reports of a list of companies. Responsibilities included transferring data onto the company’s database & updating my department with new business reports."
+            work="Assigned the task of updating excel spreadsheets by referencing raw data from the annual/ quarterly reports of a list of companies. Other responsibilities involved transferring data onto the company’s database & updating my department with new business reports."
           />
         </ul>
       </div>

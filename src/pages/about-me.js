@@ -3,6 +3,7 @@ import Education from '@/components/Education';
 import Experience from '@/components/Experience';
 import Layout from '@/components/Layout';
 import Skills from '@/components/Skills';
+import TransitionEffect from '@/components/TransitionEffect';
 import { useInView, useMotionValue, useSpring } from 'framer-motion';
 import Head from 'next/head'
 import { useEffect, useRef } from 'react'
@@ -40,17 +41,29 @@ const AboutMe = () => {
         <title>Ryan Lai | About Me Page</title>
         <meta name="description" content="This page provides an overview of my background, skills, and interests related to programming." />
       </Head>
+      <TransitionEffect />
       <main>
-        <Layout className='pt-16 flex w-full flex-col items-center justify-center'>
-          <AnimatedText text="All About Me" className='mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8'/>
+        <Layout className='pt-16 flex w-full flex-col xl:items-center xl:justify-center'>
+          <AnimatedText text="All About Me" className='mb-16 lg:!text-7xl sm:!text-5xl xs:!text-4xl sm:mb-8'/>
           <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
-            <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:!col-span-8'>
-              <h2 className='mb-4 text-lg font-bold uppercase text-dark/75'>Biography</h2>
-              <p className='my-4 font-medium'>
-                I'm Ryan- junior developer, bedroom artist and basketball fiend. After a uninspiring 3 years pursuing a Physics degree at UCL, I graduated in the summer of 2022 with the newfound exhilaration of finally being able to steer my life into a new direction. Intrinsically I've always been a hardworking and independent soul fuelled with the unwavering ambition to do great things in life. Being a very 'right-brained' person by nature, completing this highly quantitative degree provided the final facet of the skillset needed for my next pursuit- software engineering.
+            <div className='col-span-3 flex flex-col items-start justify-start xl:!col-span-4 md:order-2 lg:!col-span-8 sm:items-center sm:justify-center'>
+              <h2 className='mb-4 text-2xl font-bold uppercase text-dark/75 lg:text-xl'>Who I Am</h2>
+              <p className='my-4 text-lg font-medium lg:text-base'>
+               After a uninspiring 3 years pursuing a Physics degree at UCL, I graduated in the summer of 2022 with the newfound exhilaration of 
+               finally being able to steer my life into a new direction. Intrinsically I've always been a hardworking and independent soul fuelled 
+               with the unwavering ambition to do great things in life. Being a very 'right-brained' person by nature, completing this highly 
+               quantitative degree provided the final piece of the skillset needed for my next pursuit- software engineering.
               </p>
-              <p className='font-medium'>
-                Looking to prepare for a career in this avenue, I began studying at Makers Academy, a developer bootcamp, towards the end of 2022. Having already had plentiful experience in coding from university & personal endeavours, Maker's academy felt like the perfect opportunity to hone my craft and find new environments to thrive in. I'm now looking to play my part in a company that possesess a supportive, yet stimulating and challenging environment and hope to work with others who have the same genuine passion for software development as I do.
+              <p className='font-medium text-lg lg:text-base'>
+                Looking to prepare for a career in this avenue, I began studying at Makers Academy, a developer bootcamp, towards the end of 2022. 
+                Having already had plentiful experience in coding from university & personal endeavours, Maker's academy felt like the perfect 
+                opportunity to hone my craft and to develop my industry-applicable skills in areas such as test-driven development, 'Agile' workflow & pair programming.
+              </p>
+              &nbsp;
+              <p className='font-medium text-lg lg:text-base'>
+                In regards to programming, I possess a strong technical skillset in various programming languages, frameworks, and libraries, 
+                including JavaScript React, NodeJS, Python, TypeScript, Ruby, and the MERN Stack. I also have experience in database management,
+                with proficiency in MongoDB and PSQL.
               </p>
             </div>
 
@@ -73,17 +86,17 @@ const AboutMe = () => {
                   Projects Completed
                 </h2>
               </div>
-              <div className='flex flex-col items-end justify-center xl:!items-center'>
+              <div className='flex flex-col items-end justify-center xl:!items-center my-40 xl:my-0'>
                 <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
-                <AnimatedNumber value={3} />+
+                <AnimatedNumber value={4} />+
                 </span>
                 <h2 className='text-xl font-medium capitalize text-dark/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>
-                  Years of Experience
+                  Years of Programming
                 </h2>
               </div>
               <div className='flex flex-col items-end justify-center xl:!items-center'>
                 <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
-                <AnimatedNumber value={3} />+
+                <AnimatedNumber value={1} />+
                 </span>
                 <h2 className='text-xl font-medium capitalize text-dark/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>
                   Articles Written

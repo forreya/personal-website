@@ -39,7 +39,7 @@ const Education = () => {
   )
 
   return (
-    <div className="my-64">
+    <div className="mt-64 mb-0">
       <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16">
         Education
       </h2>
@@ -54,21 +54,25 @@ const Education = () => {
             time="Sept 2019 - Sept 2022"
             instituteLink={"https://www.ucl.ac.uk/physics-astronomy/"}
             place="University College London"
-            info="Graduated with Second Class Honours (2:1). Despite the difficult nature of the degree, engaging in these various group projects has developed me into an excellent team player with strong interpersonal skills, although I can work just as well independently."
+            info="Graduated with Second Class Honours (2:1). Undertook numerous coding projects (using Python) that involved 
+            tasks such as data analysis, computational treatment of experimental data, and creating 3-dimensional models and animations of physical systems."
           />
           <Details 
-            type="Advanced Levels"
+            type="Software Engineering Course"
+            time="Dec 2022 - April 2023"
+            instituteLink={"https://makers.tech/"}
+            place="Makers Academy"
+            info="Developed skills such working in teams to build full-stack web applications (git-flow, agile workflow), building schemas and writing unit/integration 
+            tests (TTD, mocking), object-oriented programming, pair programming, etc. Projects undertook involved an AirBnb clone & a Facebook clone."
+          />
+          <Details 
+            type="Higher Education"
             time="Sept 2017 - Jul 2019"
             instituteLink={"https://www.alice-smith.edu.my/"}
             place="Alice Smith International School"
-            info="2 A*s in Mathematics, Physics & 2 As in Further Mathematics, Chemistry. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-          />
-          <Details 
-            type="GCSEs"
-            time="Sept 2015 - Jul 2017"
-            instituteLink={"https://www.alice-smith.edu.my/"}
-            place="Alice Smith International School"
-            info="8 A*s & 3 As. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            info="For A Levels (Advanced Levels) I achieved 2 A*s in Mathematics and Physics & 2 As in Chemistry and Further Mathematics. For GCSEs I achieved 8 A*s & 3 As in a 
+            range of subjects including Computer Science.
+            "
           />
         </ul>
       </div>
