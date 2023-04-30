@@ -3,8 +3,10 @@ import Education from '@/components/Education';
 import Experience from '@/components/Experience';
 import Layout from '@/components/Layout';
 import Skills from '@/components/Skills';
+import Image from 'next/image'
 import TransitionEffect from '@/components/TransitionEffect';
 import { useInView, useMotionValue, useSpring } from 'framer-motion';
+import profilePic from 'public/images/profile/profile-pic-2.png'
 import Head from 'next/head'
 import { useEffect, useRef } from 'react'
 
@@ -35,6 +37,7 @@ const AnimatedNumber = ({value}) => {
 }
 
 const AboutMe = () => {
+
   return (
     <>
       <Head>
@@ -68,8 +71,8 @@ const AboutMe = () => {
             </div>
 
             <div className='col-span-3 relative z-0 h-max rounded-2xl border-2 border-solid border-dark bg-light xl:col-span-4 md:order-1 md:!col-span-8'>
-              <div className='absolute top-0 -z-10 -right-4 w-[102%] h-[103%] rounded-[2rem] bg-dark' />
-              <img src={"https://img.freepik.com/premium-vector/man-avatar-profile-round-icon_24640-14044.jpg?w=360"} alt="image" className="picture w-full h-auto rounded-2xl"
+              <div className='absolute top-0 -z-10 -right-4 w-[102%] h-[102.7%] rounded-[2rem] bg-dark' />
+              <Image src={profilePic} alt="image" className="picture w-full h-auto rounded-xl"
               priority 
               sizes="(max-width: 768px) 100vw,
               (max-width: 1200px) 50vw,

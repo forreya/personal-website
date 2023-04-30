@@ -5,6 +5,10 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import japaneseRPG from "../../public/images/projects/japanese-RPG.png"
+import fileSharing from "../../public/images/projects/file-sharing-site.png"
+import bowlingScorecard from "../../public/images/projects/bowling-scorecard.png"
+import musicLicensing from "../../public/images/projects/music-licensing.png"
+import photoSharing from "../../public/images/projects/photo-sharing-app.png"
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -110,7 +114,7 @@ const projects = () => {
               <Project 
                 title="Music Licensing Website"
                 link="https://github.com/forreya/music-licensing-website"
-                img={japaneseRPG}
+                img={musicLicensing}
                 github="https://github.com/forreya/music-licensing-website"
                 type=""
               />
@@ -119,7 +123,7 @@ const projects = () => {
               <Project 
                 title="File Sharing Site"
                 link="https://github.com/forreya/file-sharing-site"
-                img={japaneseRPG}
+                img={fileSharing}
                 github="https://github.com/forreya/file-sharing-site"
                 type=""
               />
@@ -128,7 +132,7 @@ const projects = () => {
               <Project 
                 title="Photo-Sharing App"
                 link="https://github.com/forreya/photo-sharing-app"
-                img={japaneseRPG}
+                img={photoSharing}
                 github="https://github.com/forreya/photo-sharing-app"
                 type=""
               />
@@ -137,7 +141,7 @@ const projects = () => {
               <Project 
                 title="Bowling Scorecard Tracker"
                 link="https://github.com/forreya/bowling-scorecard"
-                img={japaneseRPG}
+                img={bowlingScorecard}
                 github="https://github.com/forreya/bowling-scorecard"
                 type=""
               />
