@@ -1,12 +1,12 @@
 # Personal Portfolio Website
 
-### Upcoming Features:
-- [ ] Navbar (w/ links to GitHub, LinkedIn, etc)
-- [ ] HomePage (Introduction, CV, etc)
-- [ ] Footer
-- [ ] About Me Page
-- [ ] Skills Section (Programming languages, libraries, etc)
-- [ ] Projects Page (Japanese RPG game, file-sharing site, etc)
-- [ ] Articles Page (Tentative)
-- [ ] Day/Night Mode (Tentative)
-- [ ] Page Transitions
+### Features:
+- ✓ Navbar (w/ links to GitHub, LinkedIn, etc)
+- ✓ HomePage (Introduction, CV, etc)
+- ✓ Footer
+- ✓ About Me Page
+- ✓ Skills Section
+- ✓ Projects Page
+- ✓ Page Transitions
+- ✗ Articles Page (In progress...)
+- ✗ Day/Night Mode (In progress...)
