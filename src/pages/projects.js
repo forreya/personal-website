@@ -37,7 +37,7 @@ const LatestProject = ({type, title, summary, img, link, github}) => {
       </Link>
 
       <div className="w-1/2 flex flex-col items-start justify-between pl-6 lg:!w-full lg:!pl-0 lg:!pt-6">
-        <span className="text-primary font-medium text-xl xs:text-base">{type}</span>
+        <span className="text-muddier font-medium text-xl xs:text-base">{type}</span>
         <Link href={link} target="_blank" className="hover:underline underline-offset-2">
           <h2 className="my-2 w-full text-left text-4xl font-bold sm:!text-sm">{title}</h2>
         </Link>

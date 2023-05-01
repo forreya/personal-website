@@ -14,7 +14,7 @@ const Details = ({type, time, instituteLink, place, info}) => {
         transition={{duration:0.5, type:"spring"}}
       >
         <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg">{type}&nbsp;
-          <a href={instituteLink} target="_blank" className="text-primary">@{place}</a>
+          <a href={instituteLink} target="_blank" className="text-muddier">@{place}</a>
         </h3>
         <div className="mb-1">
           <span className="capitalize font-medium text-dark/75 xs:text-sm">

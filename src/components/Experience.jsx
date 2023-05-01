@@ -14,7 +14,7 @@ const Details = ({position, company, companyLink, time, address, work}) => {
         transition={{duration:0.5, type:"spring"}}
       >
         <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg">{position}&nbsp;
-          <a href={companyLink} target="_blank" className="text-primary capitalize">@{company}</a>
+          <a href={companyLink} target="_blank" className="text-muddier capitalize">@{company}</a>
         </h3>
         <div className="mb-1">
           <span className="capitalize font-medium text-dark/75 xs:text-sm">
