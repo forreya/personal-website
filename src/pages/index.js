@@ -37,7 +37,7 @@ export default function Home() {
                 Feel free to browse around to get to know me better and to see what I've been up to!
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center md:mt'>
-                <Link href="/dummy-cv.pdf" target={"_blank"}
+                <Link href="/Ryan_Lai_CV.pdf" target={"_blank"}
                 className='flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold 
                 hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark
                 justify-center group md:p-2 md:px-4 md:text-base'
