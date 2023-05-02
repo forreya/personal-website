@@ -71,7 +71,7 @@ const AboutMe = () => {
             </div>
 
             <div className='col-span-3 relative z-0 h-max rounded-2xl border-2 border-solid border-dark bg-light xl:col-span-4 md:order-1 md:!col-span-8'>
-              <div className='absolute top-0 -z-10 -right-4 w-[102%] h-[102.7%] rounded-[2rem] bg-dark' />
+              <div className='absolute top-0 -z-10 -right-3.3 w-[102%] h-[102.7%] rounded-[1.5rem] bg-dark' />
               <Image src={profilePic} alt="image" className="picture w-full h-auto rounded-xl"
               priority 
               sizes="(max-width: 768px) 100vw,
