@@ -51,19 +51,19 @@ const AboutMe = () => {
           <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
             <div className='col-span-3 flex flex-col items-start justify-start xl:!col-span-4 md:order-2 lg:!col-span-8 sm:items-center sm:justify-center'>
               <h2 className='mb-4 text-2xl font-bold uppercase text-dark/75 lg:text-xl'>Who I Am</h2>
-              <p className='my-4 text-lg font-medium lg:text-base'>
+              <p className="my-4 text-lg font-medium lg:text-base">
                After a uninspiring 3 years pursuing a Physics degree at UCL, I graduated in the summer of 2022 with the newfound exhilaration of 
-               finally being able to steer my life into a new direction. Intrinsically I've always been a hardworking and independent soul fuelled 
-               with the unwavering ambition to do great things in life. Being a very 'right-brained' person by nature, completing this highly 
+               finally being able to steer my life into a new direction. Intrinsically I&apos;ve always been a hardworking and independent soul fuelled 
+               with the unwavering ambition to do great things in life. Being a very &apos;right-brained&apos; person by nature, completing this highly 
                quantitative degree provided the final piece of the skillset needed for my next pursuit- software engineering.
               </p>
-              <p className='font-medium text-lg lg:text-base'>
+              <p className="font-medium text-lg lg:text-base">
                 Looking to prepare for a career in this avenue, I began studying at Makers Academy, a developer bootcamp, towards the end of 2022. 
-                Having already had plentiful experience in coding from university & personal endeavours, Maker's academy felt like the perfect 
-                opportunity to hone my craft and to develop my industry-applicable skills in areas such as test-driven development, 'Agile' workflow & pair programming.
+                Having already had plentiful experience in coding from university & personal endeavours, Maker&apos;s academy felt like the perfect 
+                opportunity to hone my craft and to develop my industry-applicable skills in areas such as test-driven development, &apos;Agile&apos; workflow & pair programming.
               </p>
               &nbsp;
-              <p className='font-medium text-lg lg:text-base'>
+              <p className="font-medium text-lg lg:text-base">
                 In regards to programming, I possess a strong technical skillset in various programming languages, frameworks, and libraries, 
                 including JavaScript React, NodeJS, Python, TypeScript, Ruby, and the MERN Stack. I also have experience in database management,
                 with proficiency in MongoDB and PSQL.
@@ -85,7 +85,7 @@ const AboutMe = () => {
                 <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
                   <AnimatedNumber value={5} />+
                 </span>
-                <h2 className='text-xl font-medium capitalize text-dark/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>
+                <h2 className="text-xl font-medium capitalize text-dark/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   Projects Completed
                 </h2>
               </div>
@@ -93,7 +93,7 @@ const AboutMe = () => {
                 <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
                 <AnimatedNumber value={4} />+
                 </span>
-                <h2 className='text-xl font-medium capitalize text-dark/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>
+                <h2 className="text-xl font-medium capitalize text-dark/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   Years of Programming
                 </h2>
               </div>
@@ -101,7 +101,7 @@ const AboutMe = () => {
                 <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
                 <AnimatedNumber value={1} />+
                 </span>
-                <h2 className='text-xl font-medium capitalize text-dark/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>
+                <h2 className="text-xl font-medium capitalize text-dark/75 xl:text-center md:text-lg sm:text-base xs:text-sm">
                   Articles Written
                 </h2>
               </div>

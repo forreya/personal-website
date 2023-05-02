@@ -32,9 +32,9 @@ export default function Home() {
               xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl'
               />
               <p className='my-2 text-base font-medium md:text-sm sm:text-xs md:my-4'>
-                As a recent UCL graduate who is looking to take the next big step in my career, I'm
+                As a recent UCL graduate who is looking to take the next big step in my career, I&apos;m
                 currently looking to play my part in a company that possesess a supportive, yet stimulating & challenging environment.
-                Feel free to browse around to get to know me better and to see what I've been up to!
+                Feel free to browse around to get to know me better and to see what I&apos;ve been up to!
               </p>
               <div className='flex items-center self-start mt-2 lg:self-center md:mt'>
                 <Link href="/Ryan_Lai_CV.pdf" target={"_blank"}
