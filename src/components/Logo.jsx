@@ -6,7 +6,7 @@ import yingYang from "public/ying-yang.png"
 const MotionLink = motion(Link);
 
 const Logo = () => {
-  console.log(yingYang)
+
   return (
     <div className="flex items-center justify-center mt-2">
       <MotionLink 

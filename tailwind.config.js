@@ -1,6 +1,6 @@
-/** @type {import('tailwindcss').Config} */
+// /** @type {import('tailwindcss').Config} */
 
-const { fontFamily } = require('tailwindcss/defaultTheme')
+// const { fontFamily } = require('tailwindcss/defaultTheme')
 
 module.exports = {
   content: [
@@ -8,9 +8,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        mont: ['var(--font-mont)', ...fontFamily.sans],
-      },
+      // fontFamily: {
+      //   mont: ['var(--font-mont)', ...fontFamily.sans],
+      // },
       colors: {
         dark: "#1b1b1b",
         light: "#f5f5f5",
