@@ -17,7 +17,7 @@ export default function Home() {
       </Head>
       <TransitionEffect />
       <main className='flex items-center text-dark-full min-h-screen'>
-        <Layout className='pt-0 md:p-16 sm:pt-8'>
+        <Layout className='pt-0 xl:p-16 md:p-16 sm:pt-8'>
           <div className='flex items-center justify-between w-full lg:flex-col'>
             <div className='w-1/2 md:w-full p-5'>
               <Image src={profilePic} alt="Ryan Lai" className='w-full h-auto md:inline-block md:w-full lg:w-full' 
@@ -29,9 +29,9 @@ export default function Home() {
             </div>
             <div className='w-1/2 flex flex-col self-center lg:w-full lg:text-center'>
               <AnimatedText text="I'm Ryan- Junior Developer, Creative Enthusiast and Physics Graduate." className='!text-6xl !text-left
-              xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl'
+              xl:!text-4xl lg:!text-center lg:!text-5xl md:!text-5xl sm:!text-3xl'
               />
-              <p className='my-2 text-base font-medium md:text-sm sm:text-xs md:my-4'>
+              <p className='my-2 text-base font-medium xl:!text-sm xl:!mt-1 md:text-sm sm:text-xs md:my-4'>
                 As a recent UCL graduate who is looking to take the next big step in my career, I&apos;m
                 currently looking to play my part in a company that possesess a supportive, yet stimulating & challenging environment.
                 Feel free to browse around to get to know me better and to see what I&apos;ve been up to!

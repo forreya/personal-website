@@ -47,9 +47,9 @@ const AboutMe = () => {
       <TransitionEffect />
       <main>
         <Layout className='pt-16 flex w-full flex-col xl:items-center xl:justify-center'>
-          <AnimatedText text="All About Me" className='mb-16 lg:!text-7xl sm:!text-5xl xs:!text-4xl sm:mb-8'/>
-          <div className='grid w-full grid-cols-8 gap-16 sm:gap-8'>
-            <div className='col-span-3 flex flex-col items-start justify-start xl:!col-span-4 md:order-2 lg:!col-span-8 sm:items-center sm:justify-center'>
+          <AnimatedText text="All About Me" className='mb-16 lg:!text-7xl sm:!text-5xl xs:!text-4xl xl:mb-18 sm:mb-8'/>
+          <div className='grid w-full grid-cols-8 gap-16 2xl:gap-y-16 sm:gap-8'>
+            <div className='col-span-3 flex flex-col items-start justify-start 2xl:!col-span-4 md:order-2 lg:!col-span-8 sm:items-center sm:justify-center'>
               <h2 className='mb-4 text-2xl font-bold uppercase text-dark/75 lg:text-xl'>Who I Am</h2>
               <p className="my-4 text-lg font-medium lg:text-base">
                After a uninspiring 3 years pursuing a Physics degree at UCL, I graduated in the summer of 2022 with the newfound exhilaration of 
@@ -70,7 +70,7 @@ const AboutMe = () => {
               </p>
             </div>
 
-            <div className='col-span-3 relative z-0 h-max rounded-2xl border-2 border-solid border-dark bg-light xl:col-span-4 md:order-1 md:!col-span-8'>
+            <div className='col-span-3 relative z-0 h-max rounded-2xl border-2 border-solid border-dark bg-light 2xl:!col-span-4 md:order-1 md:!col-span-8'>
               <div className='absolute top-0 -z-10 -right-3.3 w-[102%] h-[102.7%] rounded-[1.5rem] bg-dark' />
               <Image src={profilePic} alt="image" className="picture w-full h-auto rounded-xl"
               priority={true}
@@ -80,8 +80,8 @@ const AboutMe = () => {
               />
             </div>
 
-            <div className='col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3'>
-              <div className='flex flex-col items-end justify-center xl:!items-center'>
+            <div className='col-span-2 flex flex-col items-end justify-between 2xl:col-span-8 2xl:flex-row 2xl:!items-center md:order-3'>
+              <div className='flex flex-col items-end justify-center 2xl:!items-center'>
                 <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
                   <AnimatedNumber value={5} />+
                 </span>
@@ -89,7 +89,7 @@ const AboutMe = () => {
                   Projects Completed
                 </h2>
               </div>
-              <div className='flex flex-col items-end justify-center xl:!items-center my-40 xl:my-0'>
+              <div className='flex flex-col items-end justify-center 2xl:!items-center my-40 xl:my-0'>
                 <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
                 <AnimatedNumber value={4} />+
                 </span>
@@ -97,7 +97,7 @@ const AboutMe = () => {
                   Years of Programming
                 </h2>
               </div>
-              <div className='flex flex-col items-end justify-center xl:!items-center'>
+              <div className='flex flex-col items-end justify-center 2xl:!items-center'>
                 <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
                 <AnimatedNumber value={1} />+
                 </span>

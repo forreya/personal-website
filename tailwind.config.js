@@ -25,8 +25,11 @@ module.exports = {
         circularLightSm: 'repeating-radial-gradient(rgba(0,0,0,0.4) 2px,#f5f5f5 5px, #f5f5f5 40px)',
       },
       screens: {
-        "2xl": { max: "1535px" },
+        "3xl": { max: "1535px" },
         // => @media (max-width: 1535px) { ... }
+
+        "2xl": { max: "1441px"},
+        // => @media (max-width: 1350px) { ... }
     
         xl: { max: "1279px" },
         // => @media (max-width: 1279px) { ... }
