@@ -23,7 +23,7 @@ const Skills = () => {
         Skills
       </h2>
 
-      <div className='w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight xl:!h-[75h] lg:!h-[65vh] md:!h-[60vh] sm:!h-[55vh] xs:!h-[50vh] lg:!bg-circularLightLg md:!bg-circularLightMd sm:!bg-circularLightSm
+      <div className='w-full h-screen relative flex items-center justify-center rounded-full bg-circularLight xl:!h-[75h] lg:!h-[60vh] mlg:!h-[50vh] md:!h-[60vh] sm:!h-[55vh] xs:!h-[50vh] 2xl:!bg-circularLight2xl lg:!bg-circularLightLg md:!bg-circularLightMd sm:!bg-circularLightSm
       '>
         <Skill name="Code" x="0vw" y="0vw" className='p-6 xs:!bg-dark xs:!text-light xs:!text-normal xs:!p-2 lg:!py-5 lg:!px-4 md:!text-sm md:!py-1.5 md:!px-3 xs:bg-transparent xs:!text-bold'/>
         <Skill name="Python" x="-20vw" y="2vw" />

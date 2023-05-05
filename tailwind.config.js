@@ -20,6 +20,7 @@ module.exports = {
       },
       backgroundImage: {
         circularLight: 'repeating-radial-gradient(rgba(0,0,0,0.4) 2px,#f5f5f5 5px, #f5f5f5 150px)',
+        circularLight2xl: 'repeating-radial-gradient(rgba(0,0,0,0.4) 2px,#f5f5f5 5px, #f5f5f5 108px)',
         circularLightLg: 'repeating-radial-gradient(rgba(0,0,0,0.4) 2px,#f5f5f5 5px, #f5f5f5 70px)',
         circularLightMd: 'repeating-radial-gradient(rgba(0,0,0,0.4) 2px,#f5f5f5 5px, #f5f5f5 60px)',
         circularLightSm: 'repeating-radial-gradient(rgba(0,0,0,0.4) 2px,#f5f5f5 5px, #f5f5f5 40px)',
@@ -29,6 +30,9 @@ module.exports = {
         // => @media (max-width: 1535px) { ... }
 
         "2xl": { max: "1441px"},
+        // => @media (max-width: 1350px) { ... }
+
+        "sxl": { max: "1350px"},
         // => @media (max-width: 1350px) { ... }
     
         xl: { max: "1279px" },

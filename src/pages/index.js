@@ -29,7 +29,7 @@ export default function Home() {
             </div>
             <div className='w-1/2 flex flex-col self-center lg:w-full lg:text-center'>
               <AnimatedText text="I'm Ryan- Junior Developer, Creative Enthusiast and Physics Graduate." className='!text-6xl !text-left
-              xl:!text-4xl lg:!text-center lg:!text-5xl md:!text-5xl sm:!text-3xl'
+              2xl:!text-5xl xl:!text-4xl lg:!text-center lg:!text-5xl md:!text-5xl sm:!text-3xl'
               />
               <p className='my-2 text-base font-medium xl:!text-sm xl:!mt-1 md:text-sm sm:text-xs md:my-4'>
                 As a recent UCL graduate who is looking to take the next big step in my career, I&apos;m
