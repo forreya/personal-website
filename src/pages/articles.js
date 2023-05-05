@@ -91,7 +91,7 @@ const articles = () => {
   return (
     <>
       <Head>
-        <title>Ryan Lai | About Me Page</title>
+        <title>Ryan Lai | Articles Page</title>
         <meta name="description" content="This page provides an overview of my background, skills, and interests related to programming." />
       </Head>
       <TransitionEffect />
