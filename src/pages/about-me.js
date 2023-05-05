@@ -89,7 +89,7 @@ const AboutMe = () => {
                   Projects Completed
                 </h2>
               </div>
-              <div className='flex flex-col items-end justify-center 2xl:!items-center my-40 xl:my-0'>
+              <div className='flex flex-col items-end justify-center 2xl:!items-center my-40 2xl:my-0'>
                 <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
                 <AnimatedNumber value={4} />+
                 </span>
