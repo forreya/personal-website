@@ -20,4 +20,4 @@ This is my personal website that showcases my skills, past projects, and provide
 - Framer Motion
 
 ### Deployment
-The website is currently hosted on Vercel and can be accessed [here](personal-website-jrtkilxts-forreya.vercel.app).
+The website is currently hosted on Vercel and can be accessed [here](https://personal-website-forreya.vercel.app/).
