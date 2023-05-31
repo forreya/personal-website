@@ -122,7 +122,7 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project 
                 title="File Sharing Site"
-                link="https://github.com/forreya/file-sharing-site"
+                link="https://file-sharing-site-client.onrender.com/"
                 img={fileSharing}
                 github="https://github.com/forreya/file-sharing-site"
                 type=""
